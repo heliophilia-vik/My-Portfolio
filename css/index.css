@@ -1,5 +1,7 @@
 body {
     font-family: monospace;
+    margin: 0;
+    background-image: url(../img/music-one.jpeg);
 }
 
 .header {
@@ -22,4 +24,20 @@ a {
     align-self: center;
     font-size: 36px;
     font-weight: bold;
+}
+
+.main {
+    display: flex;
+   
+    height: 700px;
+
+}
+
+footer {
+    display: block;
+    background-color: blanchedalmond;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0px;
+    align-self: stretch;
 }
