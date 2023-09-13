@@ -147,13 +147,27 @@ a {
     font-size: 30px;
     font-weight: bold;
 }
+.title-links {
+   display: flex;
+   color: #bf8f00;
+   text-shadow: 2px 2px rgb(97, 80, 51);
+   padding-bottom: 100px;
+}
 .contact-info-container {
    display: flex;
-   justify-content: flex-end;
+   flex-wrap: wrap;
+   justify-content: center;
    align-self: center;
-   padding-top: 100px;
    text-align: center;
    font-size: 20px;
+   padding: 32px;
+   border: 3px solid rgb(210, 187, 95);
+   border-radius: 250px;
+   box-shadow: 2px 2px 20px 2px;
+}
+/*  Need to fix the icon display */
+.contact-icon {
+  
 }
 ul {
     list-style: none;
