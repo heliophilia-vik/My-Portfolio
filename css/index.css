@@ -58,6 +58,8 @@ a {
     color: rgb(248, 240, 240);
 }
 
+/* Main itro to my website */
+
 #main {
    min-height: 600px;
    padding-left: 50px;
@@ -71,7 +73,32 @@ a {
    align-items: center;
    justify-content: space-around;
 }
+.media-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 128px 72px 72px;
+    gap: 24px;
+    padding: 32px;
+    border: 3px solid rgb(210, 187, 95);
+    border-radius: 250px;
+    box-shadow: 2px 2px 20px 2px;
+}
 
+.music-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 32px;
+}
+
+.music-box h1 {
+    color: #bf8f00;
+    text-shadow: 2px 2px black;
+}
 /* Project portfolio section */
 .portfolio-section {
     display: flex;
